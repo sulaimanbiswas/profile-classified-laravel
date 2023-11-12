@@ -12,11 +12,17 @@
 
 
 <body class="min-h-screen flex flex-col ">
-    @include('layouts.header')
-    <main class="container px-2 md:px-10 lg:px-40 mx-auto flex flex-col mt-4 flex-1">
+    <div class="fixed top-0 z-50 w-full ">
+
+        @include('layouts.header')
+    </div>
+    <main class="flex flex-col w-full flex-1">
+        @include('layouts.sidebar')
         @yield('content')
     </main>
-    @include('layouts.footer')
+    <div class="z-50">
+        @include('layouts.footer')
+    </div>
     @yield('scripts')
 </body>
 
