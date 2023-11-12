@@ -1,7 +1,7 @@
 <footer class="bg-gray-900 mt-10">
     <div class="container px-2 md:px-10 lg:px-40  mx-auto">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-            <div class="md:flex md:justify-between">
+            <div class="md:flex md:justify-between items-center">
                 <div class="mb-6 md:mb-0">
                     <a href="/" class="flex items-center">
                         <img src="{{ asset('website/images/logo.png') }}" class="h-12 me-3" alt="" />

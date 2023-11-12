@@ -44,7 +44,7 @@
                 </div>
                 <p>
                     Don't have an account?
-                    <a href="/signup" class="hover:text-primary no-underline">
+                    <a href="/register" class="hover:text-primary no-underline">
                         Sign up
                     </a>
                 </p>
