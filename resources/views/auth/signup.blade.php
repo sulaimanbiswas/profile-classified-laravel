@@ -38,15 +38,15 @@
                     </label>
                     <input type="password" id="password"
                         class="block w-full rounded border-[1px] p-2.5 dark:bg-slate-800/60 dark:border-slate-700/50 focus:outline-none focus:border-primary"
-                        placeholder="Enter Password" required />
+                        placeholder="Enter Password" required autocomplete="new-password" />
                 </div>
                 <div class="">
                     <label for="confirmPassword" class="mb-2 block text-sm font-medium">
                         Confirm Password
                     </label>
-                    <input type="confirmPassword" id="confirmPassword"
+                    <input type="password" id="confirmPassword"
                         class="block w-full rounded border-[1px] p-2.5 dark:bg-slate-800/60 dark:border-slate-700/50 focus:outline-none focus:border-primary"
-                        placeholder="Enter Confirm Password" required />
+                        placeholder="Enter Confirm Password" required autocomplete="new-password" />
                 </div>
                 <div class="flex items-center mt-2">
                     <input type="checkbox" id="tramsCondition" class="checkbox checkbox-primary" />
