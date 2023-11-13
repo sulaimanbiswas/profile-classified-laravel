@@ -24,6 +24,9 @@ Route::get('/profile', function () {
 Route::get('/update-profile', function () {
     return view('website.updateProfile');
 });
+Route::get('/gallery', function () {
+    return view('website.gallery');
+});
 
 Route::get('/login', function () {
     return view('auth.login');

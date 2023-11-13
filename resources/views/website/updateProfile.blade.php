@@ -1,7 +1,7 @@
 @extends('layouts.user')
 
 @section('heads')
-    <title>Home - Page</title>
+    <title>Profile Update - Page</title>
 @endsection
 
 @section('content')
